@@ -30,9 +30,11 @@ public class Application3 {
         int num2 = sc.nextInt();
         System.out.println("num2 = " + num2);
 
-        sc.nextLine();
 
         System.out.print("공백이 있는 문자열을 하나 입려해주세요 : ");
+
+        sc.nextLine();
+
         String str2 = sc.nextLine();
         System.out.println("str2 = " + str2);
     }
