@@ -45,7 +45,7 @@ public class Application3 {
         }
 
         String[] sarr = {"apple", "banana", "grape", "orange"};
-        
+
         for(int i = 0; i < sarr.length; i++) {
             System.out.println("sarr[" + i + "]의 값 : " + sarr[i]);
         }
