@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.array;
 
+import java.util.Scanner;
+
 public class Application2 {
     public static void main(String[] args) {
         /* 수업목표. 배열의 사용방법을 익혀 배열을 사용할 수 있다. */
@@ -51,5 +53,26 @@ public class Application2 {
         System.out.println("arr2 = " + arr2.hashCode());
         System.out.println("carr2.hashCode() = " + carr2.hashCode());
 
+        System.out.println("arr2의 길이 : " + arr2.length);
+        System.out.println("carr2의 길이 : " + carr2.length);
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("새로 할당할 배열의 길이를 입력하세요 : "); //한번 지정한 방의 크기는 변경 불가능
+        int size = sc.nextInt();
+
+        double[] darr = new double[size];
+
+        System.out.println("darr의 hashcode : " + darr.hashCode()); //51228289
+        System.out.println("darr의 길이 : " + darr.length);
+
+        darr = new double[30];
+
+        System.out.println("변경 후 darr의 hashcode : " + darr.hashCode()); //455896770
+        System.out.println("변경 후 darr의 길이 : " + darr.length);
+        
+        darr = null;
+
+        System.out.println("darr.length = " + darr.length);
     }
 }
