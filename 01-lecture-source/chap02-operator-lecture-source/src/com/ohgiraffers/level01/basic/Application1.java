@@ -24,7 +24,7 @@ public class Application1 {
 
         //System.out.println(y >= 5 || x < 0 && x > 2); //&& 연산자가 || 연산자보다 우선순위가 높기때문에 x < 0 && x > 2가 false로 먼저 값이 나오나 y >= 5 || false 인 상황에서 y >= 5 는 true 값이기에 정답은 true로 나온다.
         //System.out.println(y += 10 - x++); //y에 10을 더한 값을 다시 y에 대입해 y는 15, x++ 의 ++은 괄호안에 수식이 끝난 후 1을 더해주기 때문에 15-2 = 13이 나온다.
-        //System.out.println(x+=2); //x값에 2를 더하고 다시 대입하여 4가 나온다.
+        //System.out.println(x+=2); //x값에 3를 더하고 다시 대입하여 5가 나온다.
         //System.out.println( !('A' <= c && c <='Z') ); //'A' 값은 c와 같기때문에 && 왼쪽값은 true 'Z' 값은 90이기 때문에 오른쪽도 true로 반환 하지만 앞에 !표로 인하여 not(true)이기 때문에 false를 반환
         //System.out.println('C'-c); //'C'값은 67이기때문에 결과값은 67-65 = 2
         //System.out.println('5'-'0'); //아스키코드에서 '5'은 53  '0'은 48이기 때문에 결과값은 53-48 = 5;
