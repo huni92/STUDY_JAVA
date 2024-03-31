@@ -1,28 +1,13 @@
 package practice.question01;
 
-import java.util.Scanner;
-
 public class LottoGenerator {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int gameNum = sc.nextInt();
+    public double num1;
+    public double num2;
 
-        int[] iarr = new int[gameNum];
-
-        int randomNum = (int)(Math.random() * 45 + 1);
-        System.out.println(randomNum);
-
-        for(int i = 1; i > iarr.length; i++){
-            iarr[i] = randomNum;
-
-
-            System.out.print(iarr[i]);
-
-        }
-
-
+    public LottoGenerator(double v, double v1) {
+        this.num1 = v;
+        this.num2 = v1;
     }
-
 
 
 }
