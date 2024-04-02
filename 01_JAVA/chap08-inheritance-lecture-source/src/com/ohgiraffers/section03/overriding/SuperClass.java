@@ -23,4 +23,5 @@ public class SuperClass {
 
     protected void protectedMethod() {}
 
+    
 }
