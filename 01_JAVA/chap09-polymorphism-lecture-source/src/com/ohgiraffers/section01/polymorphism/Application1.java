@@ -19,7 +19,7 @@ public class Application1 {
         /*
         * 다형성 장점
         * 1. 여러 타입의 객체를 하나의 타입으로 관리할 수 있기 때문에 유지보수성과 생산성이 증가한다.
-        * 2. 상속을 기반으로 한 기술이기 때문에 상속관계에 있는 모든 객체는 통일한 메세지를 수신할 수 있다.
+        * 2. 상속을 기반으로 한 기술이기 때문에 상속관계에 있는 모든 객체는 동일한 메세지를 수신할 수 있다.
         *    이런 동일한 메세지를 수신받아 처리하는 내용을 객체별로 다르게 할 수 있다는 장점을 가지고 있다.
         *    (다양한 기능을 사용하는데 있어서 관리해야할 메세지 종류가 줄어들게 된다.)
         *    하나의 호출로 여러가지 동작을 수행할 수 있다는 측면에서 오버라이딩을 다형성이라고 보기도 한다.
@@ -75,6 +75,42 @@ public class Application1 {
 
         //a1.jump(); //레퍼런스 변수 타입이 Animal 이기때문에 Rabbit Tiger가 가지고 있는 고유 기능은 사용하지 못함.
         //a2.bite();
+
+        /* 7. 타입형변환 */
+        System.out.println("======== 타입 형변환 확인 ========");
+        ((Rabbit)a1).jump();
+        ((Tiger)a2).bite();
+
+        //((Tiger)a1).bite(); //토끼는 호랑이가 될 수 없다.
+
+        /* 8. instanceof 연산자 사용 확인 */
+        System.out.println("======== instanceof ========");
+        System.out.println("a1이 Tiger 타입인지 확인 : " + (a1 instanceof Tiger));
+        System.out.println("a1이 Rabbit 타입인지 확인 : " + (a1 instanceof Rabbit));
+        System.out.println("a1이 Animal 타입인지 확인 : " + (a1 instanceof Animal));
+        System.out.println("a1이 Object 타입인지 확인 : " + (a1 instanceof Object));
+
+        if(a1 instanceof Rabbit){
+            ((Rabbit)a1).jump();
+        }
+
+        if(a1 instanceof Tiger){
+            ((Tiger)a1).bite();
+        }
+
+        /* 9. 클래스의 업캐스팅 다운캐스팅 */
+        /*
+        * 클래스 형변환은 up-casting과 down-casting으로 구분할 수 있다.
+        * up-casting : 상위 타입으로의 형변환
+        * down-casting : 하위 타입으로의 형변환
+        * 또한 작성 여부따라 명시적과 묵시적 두 가지로 구분한다.
+        * */
+
+        Animal animal1 = new Rabbit(); //up-casting 묵시적 형변환
+        Animal animal2 = (Animal) new Rabbit(); //up-casting 명시적 형변환
+
+        Rabbit rabbit1 = (Rabbit) animal1; //down-casting 명시적 형변환
+        //Rabbit rabbit2 = animal2; //down-casting은 묵시적 형변환이 안 됨
 
     }
 }
