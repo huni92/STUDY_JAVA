@@ -74,7 +74,7 @@ public class Book {
             return false;
         }
 
-        if(this.title == null) {
+        if(this.title != null) {
             if(other.title != null){
                 return false;
             }
