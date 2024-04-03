@@ -36,7 +36,7 @@ public class Application2 {
         System.out.println("str1.hashCode() = " + str1.hashCode());
 
         /*
-        * eqauls() : String 클래스의 equal()메소드는 인스턴스의 비교가 아니라 문자열 값을 비교하여
+        * eqauls() : String 클래스의 equals()메소드는 인스턴스의 비교가 아니라 문자열 값을 비교하여
         * 동일한 값을 가지면 true, 다른값을 가지는 경우 false를 가지도록 Object의 equals() 메소드를
         * 재정의 해주었다.
         * 따라서 문자열 인스턴스 생성 방식과 상관 없이 동일한 문자열을 비교하기 위해서는 == 연산대신
