@@ -6,7 +6,7 @@ public class Application2 {
 
         StringBuilder sb1 = new StringBuilder();
 
-        /* capcity() : 용량(현재 버퍼의 크기)을 정수형으로 반환하는 메소드 (문자열 + 16 기본용량) */
+        /* capacity() : 용량(현재 버퍼의 크기)을 정수형으로 반환하는 메소드 (문자열 + 16 기본용량) */
         System.out.println("sb1.capacity() = " + sb1.capacity());
 
         /*
