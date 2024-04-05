@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bf6b6f-2c5e-470e-8980-f8942d858e2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section03/uses/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section03/uses/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section04/override/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section04/override/SuperClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/Application2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/ExceptionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712284312654</updated>
-      <workItem from="1712284313668" duration="8894000" />
+      <workItem from="1712284313668" duration="9516000" />
     </task>
     <servers />
   </component>
