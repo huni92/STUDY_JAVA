@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bf6b6f-2c5e-470e-8980-f8942d858e2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section01/exception/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/exception/MoneyNegativeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/exception/NegativeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/exception/NotEnoughMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/userexception/exception/PriceNegativeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hi/Desktop/dev/01_JAVA/chap12-collection-lecture-source",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712284312654</updated>
-      <workItem from="1712284313668" duration="1671000" />
+      <workItem from="1712284313668" duration="5529000" />
     </task>
     <servers />
   </component>
