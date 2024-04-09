@@ -15,7 +15,6 @@ public class MusicManager {
 
     /* 곡 전체 조회 */
     public List<MusicDTO> selectList() {
-
         return musicList;
     }
 
@@ -82,3 +81,4 @@ public class MusicManager {
         return old != null;
     }
 }
+
