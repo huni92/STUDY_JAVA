@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bf6b6f-2c5e-470e-8980-f8942d858e2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../02_JAVA_practice/study1/study1/level01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_JAVA_practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_JAVA_practice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hi/Desktop/dev/01_JAVA/chap12-collection-lecture-source&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DDUING/Desktop/dev/JAVA/01_JAVA/chap13-exception-lecture-source&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,6 +73,9 @@
       <updated>1712284312654</updated>
       <workItem from="1712284313668" duration="10719000" />
       <workItem from="1712534388478" duration="613000" />
+      <workItem from="1712675390642" duration="12000" />
+      <workItem from="1712675414593" duration="1939000" />
+      <workItem from="1713326526505" duration="733000" />
     </task>
     <servers />
   </component>
